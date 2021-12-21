@@ -2,12 +2,12 @@
 [
     {
         "key": "alt+j",
-        "command": "editor.action.moveLinesUpAction",
+        "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
+        "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
@@ -17,7 +17,7 @@
     },
     {
         "key": "alt+up",
-        "command": "-editor.action.moveLinesUpAction",
+        "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     // Toggle between terminal and editor focus
